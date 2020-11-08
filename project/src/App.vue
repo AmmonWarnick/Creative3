@@ -54,12 +54,11 @@ body, html {
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: white;
   background-color: lightgrey;
   min-height: 100vh;
+  margin-right: 9em;
 }
 
 #nav {
@@ -77,7 +76,7 @@ body, html {
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: green;
 }
 
 .nav-item {
