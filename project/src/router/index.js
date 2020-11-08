@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Search from '../views/Search.vue'
-import Watchlist from '../views/Watchlist.vue'
+import Watchlist from '../views/friends.vue'
 import Movie from '../views/Movie.vue'
 
 Vue.use(VueRouter)
@@ -19,7 +19,7 @@ const routes = [
     component: Search
   },
   {
-    path: '/watchlist',
+    path: '/friends',
     name: 'Watchlist',
     component: Watchlist
   },

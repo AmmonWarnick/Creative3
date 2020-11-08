@@ -11,7 +11,7 @@
           <p>Search</p>
         </div>
       </router-link>
-      <router-link class="nav-item" to="/watchlist">
+      <router-link class="nav-item" to="/friends">
         <div class="menu-item">
           <p>My Friends</p>
         </div>

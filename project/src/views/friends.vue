@@ -7,7 +7,7 @@
       </div>
       <div v-else>
         <div class="movies">
-          <div class="movie" v-for="movie in watchlist" :key="movie.id">
+          <div class="movie" :key="movie.id">
             <div class="poster">
               <div class="arrow"></div>
               <div v-if="isInWatchlist(movie)">
@@ -47,16 +47,6 @@ export default {
         return false;
       }
     },
-  },
-  methods: {
-    isInWatchlist(movie) {
-      for (let i = 0; i < this.$root.$data.watchlist.length; i++) {
-        if (this.$root.$data.watchlist[i] === movie) {
-            return true;
-        }
-      }
-      return false;
-    }
   }
 };
 </script>
